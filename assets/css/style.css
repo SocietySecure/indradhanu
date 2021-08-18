@@ -419,12 +419,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
+  
 }
 
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
 #hero .carousel-inner .active.carousel-item-end {
   opacity: 0;
+  background-image: url(assets/img/slide/slide.png);
 }
 
 #hero .carousel-inner .active,
