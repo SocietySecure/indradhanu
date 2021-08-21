@@ -1,0 +1,20 @@
+.bg {
+
+    /* The image used */
+    background-image: url("../img/slide/slide_mob.jpg");
+  
+    /* Full height */
+    height: 112%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+  }
+  @media screen and (min-width: 768px) {
+      .bg {
+          background-image: url("../img/slide/slide.png");
+          padding-top: 0%;
+      }
+  }
