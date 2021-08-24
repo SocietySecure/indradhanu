@@ -10,11 +10,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10%;
+   
+    margin-top: 20%;
+    padding-top: 30%;
+    
   }
   @media screen and (min-width: 768px) {
       .bg {
           background-image: url("../img/slide/slide.png");
           padding-top: 0%;
+          margin-top: 0%;
       }
   }
